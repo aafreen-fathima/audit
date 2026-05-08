@@ -1,0 +1,2185 @@
+{
+  "elapsed_s": 255.1510968208313,
+  "metrics": [
+    {
+      "case_id": "priya",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1": 0.25,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.009846
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1": 0.22222222222222224,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.010446
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1": 0.25,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.009771
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715,
+      "quote_attribution": 1.0,
+      "n_extracted": 3,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.0023848000000000003
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "f1": 0.28571428571428575,
+      "quote_attribution": 0.6666666666666666,
+      "n_extracted": 3,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.0023408
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "f1": 0.28571428571428575,
+      "quote_attribution": 0.6666666666666666,
+      "n_extracted": 3,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.0023528000000000004
+    },
+    {
+      "case_id": "priya",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "f1": 0.28571428571428575,
+      "quote_attribution": 1.0,
+      "n_extracted": 3,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.00509
+    },
+    {
+      "case_id": "priya",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "f1": 0.28571428571428575,
+      "quote_attribution": 1.0,
+      "n_extracted": 3,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.00506
+    },
+    {
+      "case_id": "priya",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "f1": 0.28571428571428575,
+      "quote_attribution": 1.0,
+      "n_extracted": 3,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.00506
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 8,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.013791
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 0.8571428571428571,
+      "n_extracted": 7,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.013671
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 7,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.012891
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1": 0.22222222222222224,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.0028888000000000004
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 6,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.0032728
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "precision": 0.16666666666666666,
+      "recall": 0.25,
+      "f1": 0.2,
+      "quote_attribution": 1.0,
+      "n_extracted": 6,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.0031888000000000003
+    },
+    {
+      "case_id": "marcus",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.00701
+    },
+    {
+      "case_id": "marcus",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.006455
+    },
+    {
+      "case_id": "marcus",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.00725
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1": 0.6666666666666665,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 3,
+      "cost_usd": 0.01248
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "quote_attribution": 1.0,
+      "n_extracted": 6,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.01335
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1": 0.6666666666666665,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 3,
+      "cost_usd": 0.01248
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "quote_attribution": 1.0,
+      "n_extracted": 6,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.0033391999999999996
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "quote_attribution": 0.8333333333333334,
+      "n_extracted": 6,
+      "n_truth": 4,
+      "n_matched": 4,
+      "cost_usd": 0.0033832
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "precision": 0.5,
+      "recall": 0.75,
+      "f1": 0.6,
+      "quote_attribution": 0.8333333333333334,
+      "n_extracted": 6,
+      "n_truth": 4,
+      "n_matched": 3,
+      "cost_usd": 0.0033552
+    },
+    {
+      "case_id": "jordan",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.00688
+    },
+    {
+      "case_id": "jordan",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.00667
+    },
+    {
+      "case_id": "jordan",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.00679
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1": 0.22222222222222224,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.011958
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "precision": 0.14285714285714285,
+      "recall": 0.25,
+      "f1": 0.18181818181818182,
+      "quote_attribution": 1.0,
+      "n_extracted": 7,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.013893
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1": 0.22222222222222224,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.012123
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333333333333333,
+      "quote_attribution": 1.0,
+      "n_extracted": 8,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.003788
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "precision": 0.16666666666666666,
+      "recall": 0.25,
+      "f1": 0.2,
+      "quote_attribution": 1.0,
+      "n_extracted": 6,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.003272
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1": 0.22222222222222224,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.002924
+    },
+    {
+      "case_id": "sana",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.006145
+    },
+    {
+      "case_id": "sana",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 5,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.007855
+    },
+    {
+      "case_id": "sana",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 0,
+      "cost_usd": 0.006925
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.011751
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.011796
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.011481
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 2,
+      "cost_usd": 0.0028208
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 3,
+      "cost_usd": 0.0028528000000000004
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 3,
+      "cost_usd": 0.0028368
+    },
+    {
+      "case_id": "dev",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1": 0.25,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.00755
+    },
+    {
+      "case_id": "dev",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1": 0.25,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.007865
+    },
+    {
+      "case_id": "dev",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1": 0.25,
+      "quote_attribution": 1.0,
+      "n_extracted": 4,
+      "n_truth": 4,
+      "n_matched": 1,
+      "cost_usd": 0.008075
+    }
+  ],
+  "raw_outputs": [
+    {
+      "case_id": "priya",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Dashboards with many charts load very slowly, disrupting the user's workflow.",
+          "verbatim_quote": "it can take 30 seconds to load. I literally make coffee while I wait sometimes.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "The billing breakdown provided by support does not match what is shown in the app, making it impossible to understand charges.",
+          "verbatim_quote": "they sent me a CSV breakdown but it didn't tie out to what's in the billing page in the app. So I just kind of... gave up on understanding it.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "The pricing structure is opaque and users cannot understand why they are billed a certain amount.",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "The Salesforce sync fails intermittently with no notification, leaving users unaware of stale data until downstream stakeholders complain.",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified. I usually find out from the ops team Slack-pinging me asking why their dashboard is two days old.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Dashboards with many charts load very slowly, disrupting the user's workflow.",
+          "verbatim_quote": "it can take 30 seconds to load. I literally make coffee while I wait sometimes.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "The billing breakdown provided by support does not match what is shown in the app, making it impossible to reconcile charges.",
+          "verbatim_quote": "they sent me a CSV breakdown but it didn't tie out to what's in the billing page in the app.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "The pricing structure is opaque and the user cannot understand what drives their bill.",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "The Salesforce integration intermittently stops syncing, leaving dashboards silently stale.",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "There are no failure alerts for broken syncs, so the user only discovers the problem reactively through colleagues.",
+          "verbatim_quote": "I usually find out from the ops team Slack-pinging me asking why their dashboard is two days old.",
+          "severity": 4,
+          "category": "feature_gap"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Dashboards with many charts load very slowly, disrupting the user's workflow.",
+          "verbatim_quote": "it can take 30 seconds to load. I literally make coffee while I wait sometimes.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "The billing breakdown shown in the app does not match the CSV sent by support, making it impossible to understand charges.",
+          "verbatim_quote": "they sent me a CSV breakdown but it didn't tie out to what's in the billing page in the app. So I just kind of... gave up on understanding it.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Pricing structure is opaque and the user cannot understand why they were billed a certain amount.",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "The Salesforce sync fails intermittently with no notification, leaving users unaware of stale data.",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified. I usually find out from the ops team Slack-pinging me asking why their dashboard is two days old.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Dashboard performance degrades significantly with more than eight charts, causing 30-second load times",
+          "verbatim_quote": "how slow it is when I have a dashboard with more than maybe eight charts. Like, it can take 30 seconds to load",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Billing charges are opaque and unexplained, with discrepancies between support documentation and in-app billing page",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was. I emailed support and they sent me a CSV breakdown but it didn't tie out to what's in the billing page in the app",
+          "severity": 4,
+          "category": "pricing"
+        },
+        {
+          "claim": "Salesforce integration fails silently without notifications, causing data staleness that impacts downstream users",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified. I usually find out from the ops team Slack-pinging me asking why their dashboard is two days old",
+          "severity": 4,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Dashboards with more than eight charts load very slowly, taking up to 30 seconds",
+          "verbatim_quote": "how slow it is when I have a dashboard with more than maybe eight charts. Like, it can take 30 seconds to load",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Billing charges are unclear and don't reconcile between the bill and the in-app billing page",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was... they sent me a CSV breakdown but it didn't tie out to what's in the billing page in the app",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Salesforce integration fails intermittently without notifications, causing data staleness",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified. I usually find out from the ops team Slack-pinging me asking why their dashboard is two days old",
+          "severity": 4,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Dashboards with more than eight charts load very slowly, taking up to 30 seconds",
+          "verbatim_quote": "how slow it is when I have a dashboard with more than maybe eight charts. Like, it can take 30 seconds to load",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Billing charges are unclear and don't reconcile between the bill and the in-app billing page",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was... they sent me a CSV breakdown but it didn't tie out to what's in the billing page in the app",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Salesforce integration fails intermittently without notification, causing stale data in dashboards",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified. I usually find out from the ops team Slack-pinging me asking why their dashboard is two days old",
+          "severity": 4,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Loading dashboards with more than eight charts is very slow.",
+          "verbatim_quote": "The thing that drives me crazy though is how slow it is when I have a dashboard with more than maybe eight charts. Like, it can take 30 seconds to load.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "The pricing is confusing and difficult to understand.",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Salesforce integration is unreliable and often stops syncing without notification.",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified.",
+          "severity": 5,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Loading dashboards with more than eight charts is very slow.",
+          "verbatim_quote": "The thing that drives me crazy though is how slow it is when I have a dashboard with more than maybe eight charts. Like, it can take 30 seconds to load.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Pricing is confusing and hard to understand.",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Salesforce integration is unreliable and often breaks without notification.",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified.",
+          "severity": 5,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "priya",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Slow loading times for dashboards with more than eight charts.",
+          "verbatim_quote": "The thing that drives me crazy though is how slow it is when I have a dashboard with more than maybe eight charts. Like, it can take 30 seconds to load.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Confusing pricing and billing information.",
+          "verbatim_quote": "Pricing is confusing. I genuinely don't understand why my last bill was what it was.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Salesforce integration is unreliable and lacks notifications for sync failures.",
+          "verbatim_quote": "Salesforce is broken half the time. Like, the sync just stops and we don't get notified.",
+          "severity": 5,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Multiple filter types with subtly different behaviors make it hard to understand which filters are active and how they apply.",
+          "verbatim_quote": "There's like five different ways to filter and they all behave slightly differently.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The visual distinction between dashboard-level and chart-level filters is too subtle, causing users to lose track of active filters.",
+          "verbatim_quote": "sometimes a filter applies to the whole dashboard, sometimes just one chart, and the visual difference is super subtle.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Forgotten chart-level filters have caused the user to present incorrect data in meetings, creating a real business risk.",
+          "verbatim_quote": "I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "Existing onboarding/help content (Loom videos) is insufficient for teaching users how to slice and filter data independently.",
+          "verbatim_quote": "I've watched the Loom videos but it's still confusing.",
+          "severity": 2,
+          "category": "onboarding"
+        },
+        {
+          "claim": "The mobile experience renders dashboards broken, with overlapping charts and no pinch-to-zoom support.",
+          "verbatim_quote": "Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Dashboards frequently fail to load on mobile, showing only a loading spinner.",
+          "verbatim_quote": "half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "The mobile experience is so broken that digest email CTAs are effectively useless, forcing users to defer to desktop.",
+          "verbatim_quote": "I bookmark it and look on my laptop later, which kind of defeats the email.",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "The overall product feels slow and unreliable, undermining user confidence.",
+          "verbatim_quote": "It just feels slow and brittle.",
+          "severity": 3,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Multiple filtering mechanisms with inconsistent behavior make it hard to understand which filter is active and what scope it applies to.",
+          "verbatim_quote": "There's like five different ways to filter and they all behave slightly differently.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The visual distinction between dashboard-level and chart-level filters is too subtle, causing users to present incorrect data without realizing it.",
+          "verbatim_quote": "sometimes a filter applies to the whole dashboard, sometimes just one chart, and the visual difference is super subtle. I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "Self-serve learning resources (Loom videos) are insufficient to help non-power users understand filtering.",
+          "verbatim_quote": "I've watched the Loom videos but it's still confusing.",
+          "severity": 2,
+          "category": "onboarding"
+        },
+        {
+          "claim": "The mobile experience renders dashboards broken, with overlapping charts and no pinch-to-zoom support.",
+          "verbatim_quote": "Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Dashboards frequently fail to load on mobile, showing an indefinite loading spinner.",
+          "verbatim_quote": "half the time it just shows a loading spinner forever.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "The digest email's call-to-action is undermined because the linked dashboards are unusable on mobile, forcing users to defer to a laptop.",
+          "verbatim_quote": "I get the weekly digest email on my phone, click into a dashboard, and it's just... a mess... So I bookmark it and look on my laptop later, which kind of defeats the email.",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Overall dashboard performance feels slow, which detracts from the product experience.",
+          "verbatim_quote": "the dashboards were fast and the mobile view didn't suck. The product is fine when it works. It just feels slow and brittle.",
+          "severity": 3,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "There are too many filtering mechanisms that behave inconsistently, making it hard to understand how to slice data.",
+          "verbatim_quote": "There's like five different ways to filter and they all behave slightly differently.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The visual distinction between dashboard-level and chart-level filters is too subtle, causing users to lose track of which filters are active.",
+          "verbatim_quote": "sometimes a filter applies to the whole dashboard, sometimes just one chart, and the visual difference is super subtle.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Unnoticed chart-level filters have caused the user to present incorrect data in live business settings.",
+          "verbatim_quote": "I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "Onboarding/help content (Loom videos) is insufficient for teaching users how to perform basic tasks like filtering.",
+          "verbatim_quote": "I've watched the Loom videos but it's still confusing.",
+          "severity": 2,
+          "category": "onboarding"
+        },
+        {
+          "claim": "The mobile experience is broken \u2014 charts overlap, pinch-to-zoom doesn't work, and dashboards frequently fail to load.",
+          "verbatim_quote": "Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "The mobile experience undermines the value of the weekly digest email, since clicking through to a dashboard on mobile is unusable.",
+          "verbatim_quote": "So I bookmark it and look on my laptop later, which kind of defeats the email.",
+          "severity": 4,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Dashboard load performance feels slow and unreliable in general.",
+          "verbatim_quote": "It just feels slow and brittle.",
+          "severity": 3,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Filtering behavior is confusing because multiple filter types exist with subtle visual differences, making it unclear which scope each filter applies to.",
+          "verbatim_quote": "There's like five different ways to filter and they all behave slightly differently.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Dashboard filters can be accidentally left active at the chart level, causing users to misinterpret and share incorrect data.",
+          "verbatim_quote": "I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Mobile dashboard experience is broken, with overlapping charts, non-functional zoom, and persistent loading issues.",
+          "verbatim_quote": "Mobile is unusable. I get the weekly digest email on my phone, click into a dashboard, and it's just... a mess. Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "Mobile usability issues force users to defer viewing dashboards to desktop, undermining the value of email digest notifications.",
+          "verbatim_quote": "So I bookmark it and look on my laptop later, which kind of defeats the email.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Dashboard performance is slow and feels unreliable.",
+          "verbatim_quote": "The product is fine when it works. It just feels slow and brittle.",
+          "severity": 4,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Filtering behavior is confusing because different filter types (dashboard-level vs chart-level) have subtle visual differences that are hard to distinguish",
+          "verbatim_quote": "Like, sometimes a filter applies to the whole dashboard, sometimes just one chart, and the visual difference is super subtle.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Users can make incorrect decisions based on dashboards because they forget about chart-level filters that were applied",
+          "verbatim_quote": "I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Mobile experience is broken with overlapping charts, no pinch zoom, and frequent loading spinner hangs",
+          "verbatim_quote": "Mobile is unusable. I get the weekly digest email on my phone, click into a dashboard, and it's just... a mess. Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "Mobile usability issues force users to defer to laptop viewing, undermining the value of email digest notifications",
+          "verbatim_quote": "So I bookmark it and look on my laptop later, which kind of defeats the email.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Learning how to slice and filter data differently is difficult despite available tutorial videos",
+          "verbatim_quote": "The thing that bugs me is when I want to slice something differently I don't know how. I've watched the Loom videos but it's still confusing.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Dashboard performance feels slow and the product feels brittle overall",
+          "verbatim_quote": "The product is fine when it works. It just feels slow and brittle.",
+          "severity": 4,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Filtering behavior is confusing because different filter types (dashboard-level vs chart-level) have subtle visual differences that are hard to distinguish",
+          "verbatim_quote": "Like, sometimes a filter applies to the whole dashboard, sometimes just one chart, and the visual difference is super subtle.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Users can make incorrect decisions based on dashboard data when they forget about applied chart-level filters",
+          "verbatim_quote": "I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Mobile dashboard experience is broken with overlapping charts, no pinch zoom, and frequent loading spinner hangs",
+          "verbatim_quote": "Mobile is unusable. I get the weekly digest email on my phone, click into a dashboard, and it's just... a mess. Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "Mobile experience forces users to defer viewing dashboards until they can access a laptop",
+          "verbatim_quote": "So I bookmark it and look on my laptop later, which kind of defeats the email.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Learning how to modify existing dashboards is difficult despite available tutorial videos",
+          "verbatim_quote": "When I want to slice something differently I don't know how. I've watched the Loom videos but it's still confusing.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Dashboard performance is slow",
+          "verbatim_quote": "If the dashboards were fast and the mobile view didn't suck.",
+          "severity": 4,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "User finds it confusing to slice data differently due to multiple filtering methods.",
+          "verbatim_quote": "The thing that bugs me is when I want to slice something differently I don't know how. I've watched the Loom videos but it's still confusing. There's like five different ways to filter and they all behave slightly differently.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "Subtle visual differences in filters lead to incorrect data interpretation.",
+          "verbatim_quote": "Like, sometimes a filter applies to the whole dashboard, sometimes just one chart, and the visual difference is super subtle. I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Mobile experience is poor with overlapping charts and loading issues.",
+          "verbatim_quote": "Mobile is unusable. I get the weekly digest email on my phone, click into a dashboard, and it's just... a mess. Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "Dashboards feel slow and unreliable, affecting overall user satisfaction.",
+          "verbatim_quote": "Honestly? If the dashboards were fast and the mobile view didn't suck. The product is fine when it works. It just feels slow and brittle.",
+          "severity": 4,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "User finds it confusing to apply filters correctly on dashboards.",
+          "verbatim_quote": "The thing that bugs me is when I want to slice something differently I don't know how. I've watched the Loom videos but it's still confusing. There's like five different ways to filter and they all behave slightly differently.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "User risks reporting incorrect data due to subtle differences in filter application.",
+          "verbatim_quote": "I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "Mobile version of the product is unusable due to overlapping charts and loading issues.",
+          "verbatim_quote": "Mobile is unusable. I get the weekly digest email on my phone, click into a dashboard, and it's just... a mess. Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "User perceives the product as slow and unreliable.",
+          "verbatim_quote": "The product is fine when it works. It just feels slow and brittle.",
+          "severity": 3,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "marcus",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "The user finds it confusing to slice data differently due to multiple filtering methods.",
+          "verbatim_quote": "The thing that bugs me is when I want to slice something differently I don't know how. I've watched the Loom videos but it's still confusing. There's like five different ways to filter and they all behave slightly differently.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The user is at risk of presenting incorrect data due to subtle differences in filter application.",
+          "verbatim_quote": "Like, sometimes a filter applies to the whole dashboard, sometimes just one chart, and the visual difference is super subtle. I've been on calls where I'm explaining a number and it's actually wrong because I had a chart-level filter on that I forgot about.",
+          "severity": 4,
+          "category": "ux"
+        },
+        {
+          "claim": "The mobile version of the product is unusable due to overlapping charts and loading issues.",
+          "verbatim_quote": "Mobile is unusable. I get the weekly digest email on my phone, click into a dashboard, and it's just... a mess. Charts overlap, can't pinch zoom, half the time it just shows a loading spinner forever.",
+          "severity": 5,
+          "category": "ux"
+        },
+        {
+          "claim": "The user finds the product slow and unreliable, impacting their willingness to recommend it.",
+          "verbatim_quote": "Honestly? If the dashboards were fast and the mobile view didn't suck. The product is fine when it works. It just feels slow and brittle.",
+          "severity": 4,
+          "category": "performance"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Hidden per-query costs were not visible upfront, making actual pricing higher than expected.",
+          "verbatim_quote": "In practice it's been more, because of the per-query stuff that you don't really see until you're a few months in.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Dashboard load times degrade significantly as the number of charts increases, forcing users to split content across many more dashboards than desired.",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each, which means we have like 40 dashboards instead of 15. It's a mess to navigate.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "There is no in-product way to annotate or comment on charts, forcing teams to use external workarounds that quickly become stale.",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately. We need an in-product way to say \"here's what changed in week 14 and here's why.\"",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce sync fails silently on a regular basis, causing incorrect dashboard data without any alerting to notify users.",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed. We need either a real fix or at minimum an alert when it breaks.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "Per-query pricing structure lacks upfront transparency and should be made more visible before purchase.",
+          "verbatim_quote": "The per-query thing should be more visible upfront.",
+          "severity": 2,
+          "category": "pricing"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Hidden per-query costs were not transparent upfront, leading to unexpectedly higher spend than anticipated.",
+          "verbatim_quote": "In practice it's been more, because of the per-query stuff that you don't really see until you're a few months in.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Dashboard load times degrade significantly as the number of charts grows, forcing users to artificially split dashboards and creating a navigation burden.",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each, which means we have like 40 dashboards instead of 15. It's a mess to navigate.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "There is no in-product way to comment on or annotate charts, causing teams to rely on stale Slack screenshots for commentary.",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately.",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Users have no way to attach contextual explanations to chart changes directly in the product.",
+          "verbatim_quote": "We need an in-product way to say \"here's what changed in week 14 and here's why.\"",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "The Salesforce sync fails silently on a regular basis, causing incorrect dashboard data and requiring users to manually discover the failure.",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "There are no alerts or notifications when the Salesforce sync fails, leaving users without a timely signal to act on.",
+          "verbatim_quote": "We need either a real fix or at minimum an alert when it breaks.",
+          "severity": 4,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Hidden per-query costs were not visible upfront, making actual pricing higher than expected.",
+          "verbatim_quote": "In practice it's been more, because of the per-query stuff that you don't really see until you're a few months in.",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Dashboard load times degrade significantly as the number of charts increases, forcing users to split content across many more dashboards than desired.",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each, which means we have like 40 dashboards instead of 15. It's a mess to navigate.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "There is no in-product way to comment on or annotate charts, forcing teams to use external workarounds that quickly become stale.",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately. We need an in-product way to say \"here's what changed in week 14 and here's why.\"",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce sync fails silently on a regular basis, causing incorrect dashboard data without any alerting to notify users.",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed. We need either a real fix or at minimum an alert when it breaks.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "Per-query pricing structure lacks upfront transparency and should be made more visible before purchase.",
+          "verbatim_quote": "The per-query thing should be more visible upfront.",
+          "severity": 2,
+          "category": "pricing"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Dashboard load times degrade significantly with many charts, forcing artificial limits on chart count per dashboard",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Excessive number of dashboards created due to chart limits makes navigation and organization difficult",
+          "verbatim_quote": "which means we have like 40 dashboards instead of 15. It's a mess to navigate",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "No in-product capability to comment on or annotate charts, forcing teams to use screenshots in Slack that become stale",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately",
+          "severity": 4,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce integration fails silently and frequently, causing incorrect dashboard data without alerting users",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "Per-query pricing costs are not transparent upfront, leading to unexpected expenses after migration",
+          "verbatim_quote": "In practice it's been more, because of the per-query stuff that you don't really see until you're a few months in",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Lack of alerting mechanism when Salesforce sync fails prevents timely issue detection",
+          "verbatim_quote": "We need either a real fix or at minimum an alert when it breaks",
+          "severity": 4,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Dashboard load times degrade significantly with many charts, forcing artificial limits on chart count per dashboard",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Excessive number of dashboards created due to chart limits makes navigation and organization difficult",
+          "verbatim_quote": "which means we have like 40 dashboards instead of 15. It's a mess to navigate",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "No in-product capability to comment on or annotate charts, forcing teams to use external tools like Slack screenshots that become stale",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately",
+          "severity": 4,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce integration fails silently and unreliably, occurring at least weekly without alerts",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "Per-query pricing charges are not transparent upfront, leading to unexpected costs after initial purchase",
+          "verbatim_quote": "In practice it's been more, because of the per-query stuff that you don't really see until you're a few months in",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Pricing structure is confusing and lacks clarity on per-query charges during initial evaluation",
+          "verbatim_quote": "Pricing? Confusing, like I said. The per-query thing should be more visible upfront",
+          "severity": 2,
+          "category": "pricing"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Dashboard load times degrade significantly with many charts, forcing artificial limits on chart count per dashboard",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "Excessive number of dashboards created due to chart limits makes navigation and organization difficult",
+          "verbatim_quote": "which means we have like 40 dashboards instead of 15. It's a mess to navigate",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "No in-product capability to comment on or annotate charts, forcing teams to use screenshots in Slack that become outdated",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately",
+          "severity": 4,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce integration fails silently without alerts, causing incorrect dashboard data and requiring manual investigation",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "Per-query pricing model is not transparent upfront, leading to unexpected costs after initial commitment",
+          "verbatim_quote": "In practice it's been more, because of the per-query stuff that you don't really see until you're a few months in",
+          "severity": 3,
+          "category": "pricing"
+        },
+        {
+          "claim": "Pricing structure is confusing and lacks clarity on cost drivers",
+          "verbatim_quote": "Pricing? Confusing, like I said. The per-query thing should be more visible upfront",
+          "severity": 2,
+          "category": "pricing"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Dashboard load times are slow with many charts, forcing users to limit the number of charts per dashboard.",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each, which means we have like 40 dashboards instead of 15.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "There is no in-product way to comment on or annotate charts, leading to inefficient communication through external tools.",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately.",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce sync is unreliable, causing frequent errors in dashboards.",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "Pricing is confusing due to hidden per-query costs that aren't apparent upfront.",
+          "verbatim_quote": "The per-query thing should be more visible upfront.",
+          "severity": 3,
+          "category": "pricing"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Dashboard load times are slow with many charts, leading to navigation issues.",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each, which means we have like 40 dashboards instead of 15. It's a mess to navigate.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "There's no way to comment on or annotate charts within the product.",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately.",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce sync is unreliable, causing dashboard inaccuracies.",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "Pricing is confusing due to hidden per-query costs.",
+          "verbatim_quote": "The per-query thing should be more visible upfront.",
+          "severity": 3,
+          "category": "pricing"
+        }
+      ]
+    },
+    {
+      "case_id": "jordan",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Dashboard load times are slow with many charts, requiring artificial limits on dashboards.",
+          "verbatim_quote": "dashboard load times are bad once you have a lot of charts. We've had to artificially limit dashboards to six or seven charts each, which means we have like 40 dashboards instead of 15.",
+          "severity": 4,
+          "category": "performance"
+        },
+        {
+          "claim": "There's no in-product way to comment on or annotate charts, leading to stale screenshots shared in Slack.",
+          "verbatim_quote": "there's no good way to comment on or annotate a chart for the team. People take screenshots and paste them in Slack with their commentary, and then those screenshots get stale immediately.",
+          "severity": 3,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Salesforce sync is unreliable, causing frequent dashboard errors without alerts.",
+          "verbatim_quote": "Salesforce sync is unreliable. Like at least once a week I get a Slack from someone saying their dashboard is wrong, and 80% of the time it's because the Salesforce sync silently failed.",
+          "severity": 5,
+          "category": "reliability"
+        },
+        {
+          "claim": "Pricing is confusing due to per-query costs not being visible upfront.",
+          "verbatim_quote": "The per-query thing should be more visible upfront.",
+          "severity": 3,
+          "category": "pricing"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "The filter UI is deeply nested and hard to find, causing non-technical users to waste significant time on basic tasks.",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "Users must leave the app and seek external help to complete basic tasks, indicating a lack of self-serve discoverability.",
+          "verbatim_quote": "I eventually had to message our analyst to walk me through it. Again.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The product offers no in-context help or tooltips, making it hard for infrequent users to relearn features without leaving the app.",
+          "verbatim_quote": "There's no in-context help, no tooltips. The docs are okay but I don't want to leave the app and read docs to add a filter.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Alert notifications and dashboard values are inconsistent with each other, likely due to a timezone mismatch, eroding trust in the data.",
+          "verbatim_quote": "I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing? But I shouldn't have to debug timezone issues.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Ongoing Salesforce sync issues and the alert inconsistency have caused the user to lose trust in the tool's data accuracy entirely.",
+          "verbatim_quote": "I don't trust the numbers anymore. Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet our finance team maintains. Which kind of defeats the purpose of having a BI tool.",
+          "severity": 5,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "The filter UI is deeply nested in multiple dropdowns, making it hard to find without help.",
+          "verbatim_quote": "the filter UI is buried in this dropdown menu inside another dropdown menu",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The UI is unintuitive enough that the user repeatedly needs to ask a colleague for help to complete basic tasks.",
+          "verbatim_quote": "I eventually had to message our analyst to walk me through it. Again.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The product lacks in-context help or tooltips, so users cannot relearn features without leaving the app.",
+          "verbatim_quote": "There's no in-context help, no tooltips. The docs are okay but I don't want to leave the app and read docs to add a filter.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Knowledge of infrequently used features does not stick because the product provides no reinforcement or guidance between sessions.",
+          "verbatim_quote": "I learn it, then I don't use it for two weeks, then I forget. The product doesn't really teach you.",
+          "severity": 2,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Alert thresholds and dashboard values are inconsistent with each other, likely due to a timezone mismatch, forcing users to debug discrepancies themselves.",
+          "verbatim_quote": "I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing? But I shouldn't have to debug timezone issues.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Salesforce sync issues undermine trust in the data shown in the BI tool.",
+          "verbatim_quote": "Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "Loss of trust in data accuracy forces the user to manually verify numbers in an external spreadsheet, negating the value of the BI tool.",
+          "verbatim_quote": "I find myself double-checking everything in the source spreadsheet our finance team maintains. Which kind of defeats the purpose of having a BI tool.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "The filter UI is deeply nested and hard to find, causing non-technical users to waste significant time on basic tasks.",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The product lacks in-context help or tooltips, forcing users to leave the app or ask colleagues for guidance on routine actions.",
+          "verbatim_quote": "There's no in-context help, no tooltips. The docs are okay but I don't want to leave the app and read docs to add a filter.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "The product does not reinforce learning over time, causing infrequent users to repeatedly forget how to perform tasks they have learned before.",
+          "verbatim_quote": "I learn it, then I don't use it for two weeks, then I forget. The product doesn't really teach you.",
+          "severity": 2,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Alert thresholds and dashboard values are inconsistent with each other, likely due to a timezone mismatch, making alerts untrustworthy.",
+          "verbatim_quote": "I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing? But I shouldn't have to debug timezone issues.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Salesforce sync issues undermine confidence in the data, causing users to manually verify numbers in source spreadsheets instead of relying on the BI tool.",
+          "verbatim_quote": "Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet our finance team maintains. Which kind of defeats the purpose of having a BI tool.",
+          "severity": 5,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Filter UI is deeply nested and difficult to locate, requiring excessive clicking to access",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "User must rely on analyst support to perform basic filtering tasks",
+          "verbatim_quote": "I eventually had to message our analyst to walk me through it. Again.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Product lacks in-context guidance and tooltips to help users remember how to perform tasks",
+          "verbatim_quote": "I learn it, then I don't use it for two weeks, then I forget. The product doesn't really teach you. There's no in-context help, no tooltips.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Users must leave the application to access documentation for basic tasks",
+          "verbatim_quote": "The docs are okay but I don't want to leave the app and read docs to add a filter.",
+          "severity": 2,
+          "category": "ux"
+        },
+        {
+          "claim": "Alert notifications are inconsistent with dashboard data, creating confusion about data accuracy",
+          "verbatim_quote": "I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Timezone misalignment between alerts and dashboard causes data discrepancies",
+          "verbatim_quote": "I think it's a timezone thing? But I shouldn't have to debug timezone issues. Either the alert is right or the dashboard is right.",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Data sync issues with Salesforce undermine trust in the tool's accuracy",
+          "verbatim_quote": "Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet our finance team maintains.",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "User must manually verify data in source systems, negating the value of the BI tool",
+          "verbatim_quote": "I find myself double-checking everything in the source spreadsheet our finance team maintains. Which kind of defeats the purpose of having a BI tool.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Filter UI is deeply nested in multiple dropdown menus, making it difficult to locate and use",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "User forgets how to use the filter feature after periods of inactivity due to lack of in-app guidance",
+          "verbatim_quote": "I learn it, then I don't use it for two weeks, then I forget. The product doesn't really teach you. There's no in-context help, no tooltips.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Documentation requires leaving the app, creating friction for quick tasks",
+          "verbatim_quote": "The docs are okay but I don't want to leave the app and read docs to add a filter.",
+          "severity": 2,
+          "category": "ux"
+        },
+        {
+          "claim": "Alert notifications and dashboard data are inconsistent, possibly due to timezone misalignment",
+          "verbatim_quote": "I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing?",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Data sync issues with Salesforce undermine trust in the tool's accuracy",
+          "verbatim_quote": "Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet our finance team maintains.",
+          "severity": 4,
+          "category": "integration"
+        },
+        {
+          "claim": "User must manually verify data in source systems, negating the value of the BI tool",
+          "verbatim_quote": "I find myself double-checking everything in the source spreadsheet our finance team maintains. Which kind of defeats the purpose of having a BI tool.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Filter UI is deeply nested in multiple dropdown menus, making it difficult to discover and access",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "User frequently forgets how to perform common tasks due to lack of in-app guidance and learning aids",
+          "verbatim_quote": "I learn it, then I don't use it for two weeks, then I forget. The product doesn't really teach you. There's no in-context help, no tooltips.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Documentation requires leaving the application, creating friction for quick task completion",
+          "verbatim_quote": "The docs are okay but I don't want to leave the app and read docs to add a filter.",
+          "severity": 2,
+          "category": "ux"
+        },
+        {
+          "claim": "Alert notifications and dashboard data are inconsistent, with suspected timezone synchronization issues",
+          "verbatim_quote": "I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing?",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Data reliability issues force users to manually verify metrics in external sources, undermining the value of the BI tool",
+          "verbatim_quote": "I find myself double-checking everything in the source spreadsheet our finance team maintains. Which kind of defeats the purpose of having a BI tool.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "The filter UI is difficult to find and use.",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "There is no in-context help or tooltips to assist with using the product.",
+          "verbatim_quote": "The product doesn't really teach you. There's no in-context help, no tooltips.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "The notifications are inaccurate, possibly due to timezone issues.",
+          "verbatim_quote": "I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing?",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "There are sync issues with Salesforce, leading to distrust in the data.",
+          "verbatim_quote": "Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet our finance team maintains.",
+          "severity": 5,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "The filter UI is difficult to find and use, requiring assistance from an analyst.",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu. I eventually had to message our analyst to walk me through it.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "There is no in-context help or tooltips to assist with learning the product, leading to repeated confusion after periods of non-use.",
+          "verbatim_quote": "The product doesn't really teach you. There's no in-context help, no tooltips.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "The documentation requires leaving the app, which is inconvenient for simple tasks like adding a filter.",
+          "verbatim_quote": "The docs are okay but I don't want to leave the app and read docs to add a filter.",
+          "severity": 2,
+          "category": "ux"
+        },
+        {
+          "claim": "Notifications are inaccurate, possibly due to timezone issues, leading to confusion about data accuracy.",
+          "verbatim_quote": "The notifications are wrong. Like, I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing?",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "There is a lack of trust in the data due to sync issues and notification inaccuracies, causing double-checking against source spreadsheets.",
+          "verbatim_quote": "I don't trust the numbers anymore. Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet our finance team maintains.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "sana",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "The filter UI is hard to find and requires assistance to use.",
+          "verbatim_quote": "Took me 15 minutes of clicking around because the filter UI is buried in this dropdown menu inside another dropdown menu. I eventually had to message our analyst to walk me through it. Again.",
+          "severity": 3,
+          "category": "ux"
+        },
+        {
+          "claim": "The product lacks in-context help or tooltips, making it hard to remember how to use features.",
+          "verbatim_quote": "The product doesn't really teach you. There's no in-context help, no tooltips.",
+          "severity": 3,
+          "category": "onboarding"
+        },
+        {
+          "claim": "Notifications are inaccurate, possibly due to timezone issues, causing confusion.",
+          "verbatim_quote": "The notifications are wrong. Like, I have an alert set for if returns spike above a threshold, and I get the alert but the dashboard says we're below the threshold. I think it's a timezone thing?",
+          "severity": 4,
+          "category": "reliability"
+        },
+        {
+          "claim": "Lack of trust in data due to sync issues and notification inaccuracies, leading to manual double-checking.",
+          "verbatim_quote": "And the third thing is I don't trust the numbers anymore. Between the Salesforce sync issues my team has mentioned, and the alert thing, I find myself double-checking everything in the source spreadsheet our finance team maintains.",
+          "severity": 5,
+          "category": "reliability"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "The Datadog connector only pulls metrics, not events, making it impossible to correlate deploys with error spikes in a single view.",
+          "verbatim_quote": "the DataSync Datadog connector is incomplete. Like, it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\" The two systems should talk to each other and they kind of don't.",
+          "severity": 4,
+          "category": "integration"
+        },
+        {
+          "claim": "The product feedback loop is opaque \u2014 users who file feature requests receive no meaningful follow-up and don't know if their input has any impact.",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse-grained, forcing admins to either over-grant access or manually handle every individual permission request.",
+          "verbatim_quote": "role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\" So we either over-grant or someone has to ask me every time.",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "There is no migration tooling, making it prohibitively costly to move a large library of dashboards and queries to another product.",
+          "verbatim_quote": "We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction. But if a competitor offered a real migration tool plus better Datadog integration, I'd seriously look.",
+          "severity": 3,
+          "category": "feature_gap"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "The Datadog connector does not pull events, only metrics, making it impossible to correlate deploys with error spikes in a single view.",
+          "verbatim_quote": "the DataSync Datadog connector is incomplete. Like, it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\" The two systems should talk to each other and they kind of don't.",
+          "severity": 4,
+          "category": "integration"
+        },
+        {
+          "claim": "The product feedback loop is opaque \u2014 users who submit feature requests receive no meaningful follow-up and cannot tell if their input has any impact.",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse-grained, forcing admins to either over-grant access or manually handle every individual permission request.",
+          "verbatim_quote": "role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\" So we either over-grant or someone has to ask me every time.",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "There is no migration tooling, making it prohibitively costly to move a large library of dashboards and queries to another product.",
+          "verbatim_quote": "Migration cost. We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction. But if a competitor offered a real migration tool plus better Datadog integration, I'd seriously look.",
+          "severity": 3,
+          "category": "feature_gap"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-sonnet-4-6",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "The Datadog connector pulls metrics but not events, making it impossible to correlate deploys with error spikes in a single view.",
+          "verbatim_quote": "it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\" The two systems should talk to each other and they kind of don't.",
+          "severity": 4,
+          "category": "integration"
+        },
+        {
+          "claim": "The product feedback loop is opaque \u2014 users who file feature requests receive no meaningful follow-up and cannot tell if their input has any impact.",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse, forcing admins to either over-grant access or manually field repeated permission requests.",
+          "verbatim_quote": "role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\" So we either over-grant or someone has to ask me every time.",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "There is no migration tooling, making it prohibitively costly to move a large library of dashboards and queries to another platform.",
+          "verbatim_quote": "We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction. But if a competitor offered a real migration tool plus better Datadog integration, I'd seriously look.",
+          "severity": 3,
+          "category": "feature_gap"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-haiku-4-5",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "Datadog connector is incomplete and does not pull events, only metrics, preventing correlation of deployments with error spikes",
+          "verbatim_quote": "The DataSync Datadog connector is incomplete. Like, it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\"",
+          "severity": 4,
+          "category": "integration"
+        },
+        {
+          "claim": "Product feedback loop lacks transparency; users receive acknowledgment but no visibility into whether requests are being prioritized or addressed",
+          "verbatim_quote": "your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse-grained, forcing a choice between over-granting access or requiring frequent manual permission requests",
+          "verbatim_quote": "role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\" So we either over-grant or someone has to ask me every time.",
+          "severity": 2,
+          "category": "ux"
+        },
+        {
+          "claim": "High switching cost due to 200+ dashboards and queries with no migration tooling available, creating lock-in despite product friction",
+          "verbatim_quote": "We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction.",
+          "severity": 4,
+          "category": "feature_gap"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-haiku-4-5",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "Datadog connector is incomplete and doesn't pull events, only metrics, preventing correlation of deploys with error spikes",
+          "verbatim_quote": "The DataSync Datadog connector is incomplete. Like, it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\"",
+          "severity": 4,
+          "category": "integration"
+        },
+        {
+          "claim": "Feature request feedback loop is opaque with no visibility into whether requests are being considered or prioritized",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse-grained, offering only read-only or full edit with no granular team-level access controls",
+          "verbatim_quote": "role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\"",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "High switching cost due to 200+ dashboards and queries makes migration to competitors prohibitively expensive",
+          "verbatim_quote": "We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction.",
+          "severity": 4,
+          "category": "other"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "claude-haiku-4-5",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "Datadog connector is incomplete and does not pull events, only metrics, preventing correlation of deploys with error spikes",
+          "verbatim_quote": "The DataSync Datadog connector is incomplete. Like, it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\"",
+          "severity": 4,
+          "category": "integration"
+        },
+        {
+          "claim": "Product feedback loop lacks transparency; users receive no updates on feature requests after initial acknowledgment",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse-grained, offering only read-only or full edit access with no granular team-level controls",
+          "verbatim_quote": "role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\"",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "High switching cost due to 200 dashboards and queries that would require significant migration effort",
+          "verbatim_quote": "We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction.",
+          "severity": 3,
+          "category": "other"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "gpt-4o",
+      "run_idx": 0,
+      "extracted": [
+        {
+          "claim": "The DataSync Datadog connector is incomplete and doesn't pull events, limiting the ability to correlate deploys with error spikes.",
+          "verbatim_quote": "The product itself is fine. My main pain is integration. We use Datadog and the DataSync Datadog connector is incomplete. Like, it pulls metrics but not events.",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "The product feedback loop is unresponsive and lacks transparency, making users feel their input is ignored.",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse, forcing over-granting of access or frequent permission requests.",
+          "verbatim_quote": "But role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\" So we either over-grant or someone has to ask me every time.",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "High migration cost due to the large number of dashboards and queries prevents switching to a competitor.",
+          "verbatim_quote": "Migration cost. We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction.",
+          "severity": 4,
+          "category": "other"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "gpt-4o",
+      "run_idx": 1,
+      "extracted": [
+        {
+          "claim": "The integration with Datadog is incomplete, as it pulls metrics but not events, making it difficult to correlate deploys with error spikes.",
+          "verbatim_quote": "The product itself is fine. My main pain is integration. We use Datadog and the DataSync Datadog connector is incomplete. Like, it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\"",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "The product feedback loop is not transparent, leaving users uncertain if their feedback is being considered.",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse, forcing users to over-grant permissions or handle frequent access requests.",
+          "verbatim_quote": "But role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\" So we either over-grant or someone has to ask me every time.",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "The cost and effort of migrating 200 dashboards and queries is too high, preventing switching to a competitor.",
+          "verbatim_quote": "Migration cost. We have like 200 dashboards and queries. Moving them is a project I don't have headcount for.",
+          "severity": 4,
+          "category": "other"
+        }
+      ]
+    },
+    {
+      "case_id": "dev",
+      "model": "gpt-4o",
+      "run_idx": 2,
+      "extracted": [
+        {
+          "claim": "The integration with Datadog is incomplete, as it pulls metrics but not events, which affects the ability to correlate deploys with error spikes.",
+          "verbatim_quote": "The product itself is fine. My main pain is integration. We use Datadog and the DataSync Datadog connector is incomplete. Like, it pulls metrics but not events. So we can chart our error rate but we can't see \"deploy happened here, then errors spiked.\"",
+          "severity": 5,
+          "category": "integration"
+        },
+        {
+          "claim": "The product feedback loop is not transparent, making it unclear if user feedback is considered or acted upon.",
+          "verbatim_quote": "Filed a feature request like seven months ago. Got a \"we're tracking it\" reply. Haven't heard since. That's a separate thing \u2014 your product feedback loop is a black box. I don't know if anything I tell you matters.",
+          "severity": 3,
+          "category": "other"
+        },
+        {
+          "claim": "Role-based permissions are too coarse, forcing over-granting of permissions or frequent intervention for access.",
+          "verbatim_quote": "But role-based permissions are too coarse. I can either give someone read-only on everything or full edit. There's no \"edit only the dashboards in your team's folder.\" So we either over-grant or someone has to ask me every time.",
+          "severity": 2,
+          "category": "feature_gap"
+        },
+        {
+          "claim": "Migration cost and effort is a barrier to switching products, as moving 200 dashboards and queries is not feasible without additional resources.",
+          "verbatim_quote": "Migration cost. We have like 200 dashboards and queries. Moving them is a project I don't have headcount for. So we live with the friction.",
+          "severity": 4,
+          "category": "other"
+        }
+      ]
+    }
+  ]
+}
