@@ -4,14 +4,6 @@
 
 ---
 
-## Demo
-
-[**▶ Watch the 2-minute demo on Loom**](https://www.loom.com/share/PASTE_LOOM_URL_HERE)
-
-<!-- Optional screenshot: ./assets/dashboard.png -->
-
----
-
 ## The problem
 
 Most teams shipping LLM features make model and prompt decisions on vibes. *"Claude feels better." "We tried it on a few examples and it seemed fine."* Without an eval set, every model swap, prompt tweak, or vendor change is a coin flip on whether the product just got worse.
